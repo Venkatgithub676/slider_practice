@@ -1,1 +1,24 @@
 /* Write your CSS here */
+
+.image-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.image-url {
+  width: 30%;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}

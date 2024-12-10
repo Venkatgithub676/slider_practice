@@ -1,6 +1,19 @@
 /* Write your CSS here */
 
 .slider-con {
-  background-color: #000000;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png);
   height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.planets {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #05acff;
+}
+.slider-main-con {
+  width: 90%;
 }
